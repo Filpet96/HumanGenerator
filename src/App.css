@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 170px;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.App-title {
+  font-size: 2em;
+  margin-top: 1%
+}
+button {
+  margin-top: 2%;
+  width: 250px;
+  height: 40px;
+  background-color: rgb(33, 33, 33);
+  color: #fff;
+  text-transform: uppercase;
+  font-size: medium;
+  box-sizing: border-box;
+	outline:none;
+}
+button:hover {
+  cursor: pointer;
+}
+iframe {
+  padding-top: 3%;
+}
