@@ -1,14 +1,19 @@
+body {
+  height: 100vh;
+}
 .App {
   text-align: center;
+  height: 100%
 }
-
-.App-logo {
-  height: 80px;
+#root {
+  height: 100%;
 }
-
+.appCont {
+  height: 100%;
+}
 .App-header {
   background-color: #222;
-  height: 170px;
+  height: 15%;
   padding: 20px;
   color: white;
   display: flex;
@@ -16,13 +21,28 @@
   align-items: center;
   flex-direction: column;
 }
-
+.fetchClass {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 79%;
+}
 .App-title {
-  font-size: 2em;
+  font-size: 1.5em;
   margin-top: 1%
 }
+.human-icon-container {
+  width: 150px;
+  height: 150px;
+  background-position: center;;
+  background-size: cover;
+  border-radius: 50%;
+  margin-top: -70px;
+
+  box-sizing: border-box;
+}
 button {
-  margin-top: 2%;
+  margin-top: -4%;
   width: 250px;
   height: 40px;
   background-color: rgb(33, 33, 33);
@@ -36,5 +56,5 @@ button:hover {
   cursor: pointer;
 }
 iframe {
-  padding-top: 3%;
+  padding-top: 0%;
 }
